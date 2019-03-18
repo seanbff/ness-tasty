@@ -1,0 +1,195 @@
+html {
+	font-family: Gugi;
+	font-size: 16px;
+}
+
+
+div {
+	text-align: center;
+	background-color: black;
+	color:white;
+	border: 10px double white;
+	border-radius: 20px;
+	margin: 0 auto;
+	box-shadow: 15px 15px hsl(20, 0%, 5%);
+}
+
+input, textarea, select {
+	font-family: Gugi;
+}	
+
+#name-query {
+	margin-top: 18rem;
+	width: 75rem;
+	padding-top: 8rem;
+	padding-bottom: 6rem;
+}
+
+#name-ask {
+	font-size: 3.8em;
+}
+
+#name-input{
+	font-size: 2.2em;
+	text-align: center;
+	margin: 1em 0;
+	padding: .2em 1.5em;
+}
+
+
+.smaller-image {
+	width: 7em;
+	border: 10px solid #fcf649;
+	border-radius: 50%;
+	position: absolute;
+	right: 18em;
+	top: 40em;
+}
+
+
+#grandma-query {
+	margin-top: 2rem;
+	width: 52rem;
+	padding-top: 1.5rem;
+	padding-bottom: .5rem;
+}
+
+#grandma-input {
+	margin: 1em;
+	text-align: center;
+}
+
+#essay-query {
+	width: 37.5rem;
+	margin-top: 50rem;
+	padding-top: .3125rem;
+	padding-bottom: 2.1875rem;
+}
+
+#essay-p {
+	font-size: 2.2em;
+	margin-top: 1em;
+}
+
+#essay-ask {
+	font-size: 1.1em;
+}
+
+#peanut-query {
+	margin: 2rem auto;
+	width: 56.25rem;
+}
+
+#peanut-ask {
+	font-size: 3.5em;
+	margin: 1em auto;
+}
+
+.peanut-answers {
+	display: block;
+	position: relative;
+	margin: -1em 0 1.7em 7em;
+	padding-left: 2em;
+	text-align: left;
+	font-size: 1.5em;
+	cursor: pointer;
+	border: none;
+	box-shadow: none;
+}
+
+.peanut-answers input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.checkmark {
+	position: absolute;
+	bottom: .07em;
+	left: 0;
+	height: 1em;
+	width: 1em;
+	background-color: black;
+	border: .1em solid white;
+	border-radius: 50%;
+}
+
+.peanut-answers:hover input ~ .checkmark {
+	background-color: white;
+}
+
+.peanut-answers input:checked ~ .checkmark {
+	background-color: black;
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.peanut-answers input:checked ~ .checkmark:after {
+	display: block;
+}
+
+.peanut-answers .checkmark:after {
+ 	top: .2em;
+	left: .21em;
+	width: .6em;
+	height: .6em;
+	border-radius: 50%;
+	background-color: white;
+}
+
+#dropdown-query {
+	width: 42rem; 
+	padding: 1rem 0;
+}
+
+#dropdown-ask {
+	font-size: 2.3em;
+}
+
+#dropdown-query select {
+	margin-bottom: 1em;
+	font-size: 1.25em;
+	padding: .2em 0;
+}
+
+#dropdown-query select:hover {
+	cursor: pointer;
+}
+
+#submit-query {
+	width: 17.5rem;
+	margin: 3rem auto;
+	padding-top: .8rem;
+	padding-bottom: .4rem;
+}
+
+.submit {
+	font-size: 3.75em;
+	padding-top: 10px;
+	margin-bottom: -.1em;
+	color: white;
+	border: none;
+	background-color: black;
+}
+
+.submit2 {
+	font-size: .5em;
+	margin-top: 1em;
+	padding-top: .25em;
+	border: none;
+	background-color: black;
+	color: white;
+}		
+
+#submit-query input:hover {
+	cursor: pointer;
+	color: #fcf649;
+}
+
+@media (max-width: 1266px) {
+	html {font-size: 10px;}
+}

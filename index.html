@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>You~</title>
+	<link href="https://fonts.googleapis.com/css?family=B612|Gugi" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="styles-forms.css">
+</head>
+<body background="square.png">
+	<main>
+		<form method="post" action="mailto:seanb@muccimail.com">
+			<div id="name-query">
+				<label id="name-ask" for="name-input">Your name, please:</label>
+				<br>
+				<input id="name-input" type="text" name="name">
+			</div>
+			<div id="grandma-query">
+				<label id="grandma-ask" for="grandma-input">Great-great-great-great-great-great-great-great-great-great grandmama's name:</label>
+				<br>
+				<input id="grandma-input" type="text" name="grand">
+			</div>
+			<img src="face.png" class="smaller-image" alt="It's you.">		
+			<div id="essay-query">
+				<p id="essay-p">I don't believe that.</p>
+				<label id="essay-ask" for="essay-input">Write an Apology Essay:</label><br>
+				<textarea id="essay-input" name="apology" cols="30" rows="100" wrap="VIRTUAL"></textarea>
+			</div>
+			<div id="peanut-query">
+				<p id="peanut-ask">Peanut?</p>
+				<label class="peanut-answers">not a fan
+					<input type="radio" name="peanut" value="badstuff" checked>
+					<span class="checkmark"></span>
+				</label>
+				<label class="peanut-answers">hmmm nice protein!
+					<input type="radio" name="peanut" value="goodstuff">
+					<span class="checkmark"></span>
+				</label>
+				<label class="peanut-answers">i dont think my grandmomma was that great...
+					<input type="radio" name="peanut" value="grandma">
+					<span class="checkmark"></span>
+				</label>
+			</div>
+			<div id="dropdown-query">
+				<p id="dropdown-ask">Please choose:</p>
+				<select name="droptop">
+					<option value="herald">The second option is hiding.</option>
+					<option value="discovery">AAAAAAAAAAAAAAAAAHHHHHHHH!!!!!!!</option>
+				</select>
+			</div>
+			<div id="submit-query">
+				<input class="submit" type="submit" value="Submit">
+				<input class="submit2" type="reset" value="Dark Souls Button" onClick="window.location.reload()">
+			</div>
+		</form>	
+	</main>
+</body>
+</html>
+
+<!--The Dark Souls Button is for your best interest. We promise.-->
